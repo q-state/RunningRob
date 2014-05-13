@@ -34,7 +34,7 @@ public class Enemy2DUserControl : MonoBehaviour
 		#endif
 		
 		// Pass all parameters to the character control script.
-		character.Move( 2, false , jump );
+		character.Move( 1.2f, false , jump );
 		
 		// Reset the jump input once it has been used.
 		jump = false;
